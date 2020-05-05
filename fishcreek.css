@@ -1,0 +1,190 @@
+#wrapper {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFFFFF;
+    }
+
+ body{
+background-image: url("images/gradientblue.jpg");
+	font-family: Verdana,arial, sans-serif;
+	color:d5e3ff;
+
+}
+a:link {
+   text-decoration: none;
+	font-size: 1.1em;
+font-weight: bold;
+ 
+ color:#2a2ac0;
+}
+a:visited {
+    color:#037aba;
+}
+h1{
+    line-height: 200% ;
+	background-color: #000066;	
+	padding: 10px;
+	font-size: 3em;
+	background-image: url("images/bigfish.gif");
+    background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	color: #FFFFFF;
+	 text-shadow: 1px 2px #dedede;
+	}
+	h2{
+		text-shadow: 1px 2px #aaa;
+		
+	}
+	#nav{
+		font-weight: bold;
+		font-size: 1.1em;
+	}
+#nav1{
+ font-size: 1.1em;
+font-weight: bold;
+ text-shadow: 1px 2px #aaa;
+ margin-left:15px;
+ 
+
+}
+#footer1{
+ font-size: 0.70em;
+ 
+ margin-left:152px;
+ float:left;
+ background-color:white;
+ height:71px;
+ width:1216px;
+}
+
+#f{
+	font-weight: bold;
+}
+sul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+}
+fieldset{
+	border:none;
+}
+
+
+#txt1
+{
+	margin-left:44px;
+	
+}
+
+#txt2
+{
+	
+	margin-left:42px;
+	
+}
+
+#txt3
+{
+	
+	margin-left:5px;
+}
+
+
+	
+	#txt4
+	{
+		margin-left:2px;
+		
+		
+	}
+	
+	
+	#txt5
+	{
+		margin-left:70px;
+	}
+	#txt6
+	{
+		margin-left:84px;
+	}
+	
+	#txt7
+	{
+		margin-left:112px;
+	}
+	
+	#txt8
+	{
+		margin-left:16px;
+	}
+	
+	
+	#txt9
+	{
+		width:120px;
+		height:30px;
+		color:blue;
+		border-style:none;
+		background-color:white;
+		font-style:italic;
+		text-decoration:underline;
+		margin-left:23px;
+	}
+	
+	#txt10
+	{
+		width:65px;
+		height:30px;
+		color:blue;
+		border-style:none;
+		background-color:white;
+		font-size:16px;
+		text-decoration:underline;
+	}
+	
+	#txt11
+	{
+		color:black;
+		font-weight:bold;
+		
+	}
+	
+	#shift1
+	{
+		
+		margin-left:160px;
+		float:left;
+	}
+	
+#shift2
+	{
+		
+	font-size:10px;
+	text-decoration:underline;
+	}
+
+
+#txt12
+{
+	font-size:10px;color:#460da5 ;
+}
+
+#txt13
+{
+	width:125px;
+		height:30px;
+		color:blue;
+		border-style:none;
+		background-color:white;
+		font-style:italic;
+		text-decoration:underline;
+	    font-size:14px;
+}
+#txt14{
+	color:#460da5 ;
+}
+#txt15{
+	margin-left: 60px;
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+ <head>
+<title >contact</title>
+<link href ="fishcreek.css" rel="stylesheet" type="text/css"/>
+<style>
+a:visited{
+	color:#037aba;
+	
+}
+a:link{
+color:#2a2ac0;
+}
+
+
+</style>
+<script type="text/javascript">
+function  validate()
+{
+var name=document.forms["myForm"]["title"].value;
+
+
+var mail=document.forms["myForm"]["mail"].value;
+
+if(name=="")
+{
+alert("PLease enter Client Name");
+return false;
+}
+
+
+
+if(mail=="")
+{
+alert("PLease enter Email id");
+return false;
+}
+}
+</script>
+
+ </head>
+<body>
+<div id ="wrapper" background-color=white;>
+
+<div id="img">
+<h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fish Creek Animal Hospital</h1>
+
+</div>
+<table>
+<tr>
+<td width="35%">
+<div id=nav> 
+   <div>&nbsp;&nbsp;&nbsp;<a href="index.html" >Home</a></div>
+  <div>&nbsp;&nbsp;&nbsp;<a href="services.html" >Services</a></div>
+  <div>&nbsp;&nbsp;&nbsp;<a href="askthevet.html" >Ask the Vet</a> </div>
+  <div>&nbsp;&nbsp;&nbsp;<a href="subscribe.html" >Subscribe   </a></div>
+  <div>&nbsp;&nbsp;&nbsp;<a href="contact.html" >Contact</a></div>
+   
+   </br>
+   </br>
+   </br>
+   </br>
+   </br>
+   </br>
+   </br>
+   </div>
+   
+   </td><td>
+   
+   
+
+	<h2> Contact Fish Creek</h2> 
+	<form id=txt14  method="get" action="index.html" name="myForm" onsubmit="return validate();">
+	
+	Required fieldset are marked with asterisk(*)
+	
+	
+	
+	 
+	
+	<fieldset >
+	
+	<div>
+	<label id="lbl1">*Name:</label>
+	<input type="text" id="txt1" name="title">
+	
+	</div>
+	<br>
+	<div>
+	   <label id="lbl1">*E-Mail:</label>
+	   <input type="text" id="txt2" name="mail">
+	   
+		</div>
+		<br>
+		<div>
+		<label id="txt4" >  *Comments:</label>
+		
+		<textarea align="center" rows="1" id="txt3" > </textarea>
+		
+		</div>
+		</br>
+		<div>
+		
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Send Now">
+		</div>
+		<footer>
+</br></br>
+ <i><small>&nbsp;&nbsp;Copyright &copy 2016 Fish Creek Animal Hospital</small></i></br>
+<input type="button" id="txt13" value="manu@gupta.com" onclick="window.location.href='mailto:manu.gupta@mavs.uta.edu'">
+
+
+		
+		
+		
+	
+</footer>
+
+		
+		</fieldset>
+		</form >
+		</td>
+		
+		
+		</tr>
+	
+		
+	
+	
+</table>	
+	
+
+
+</body>
+</html>

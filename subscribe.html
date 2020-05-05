@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+ <head>
+<title >subscribe</title>
+<link href ="fishcreek.css" rel="stylesheet" type="text/css"/>
+
+<style>
+a:visited{
+	color:#037aba;
+	
+}
+a:link{
+color:#2a2ac0;
+}
+</style>
+<script type="text/javascript">
+function  validate()
+{
+var name=document.forms["myForm"]["title"].value;
+var address=document.forms["myForm"]["Address"].value;
+var password=document.forms["myForm"]["password"].value;
+var phone=document.forms["myForm"]["phone"].value;
+var mail=document.forms["myForm"]["mail"].value;
+var pet=document.forms["myForm"]["Pet"].value;
+if(name=="")
+{
+alert("PLease enter Client Name");
+return false;
+}
+
+if(address=="")
+{
+alert("PLease enter Address");
+return false;
+}
+if(mail=="")
+{
+alert("PLease enter Email id");
+return false;
+}
+
+if(phone=="")
+{
+alert("PLease enter phone");
+return false;
+}
+if(password=="")
+{
+alert("PLease enter Password");
+return false;
+}
+if((password.length < 8) || (password.length > 12)){
+alert("between 8-12 character");
+return false;
+}
+
+
+if(pet=="")
+{
+alert("Please Enter Pet");
+return false;
+}
+}
+</script>
+ </head>
+<body>
+<div id ="wrapper" background-color=white;>
+
+<div id="img">
+<h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fish Creek Animal Hospital</h1>
+
+</div>
+<table>
+<tr>
+<td width="30%">
+ <div id=nav>
+  <div>&nbsp;&nbsp; <a href="index.html" >Home</a></div>
+  <div>&nbsp;&nbsp;&nbsp;<a href="services.html" >Services</a></div>
+  <div>&nbsp;&nbsp;&nbsp;<a href="askthevet.html" >Ask the Vet</a> </div>
+  <div>&nbsp;&nbsp;&nbsp;<a href="subscribe.html" >Subscribe   </a></div>
+  <div>&nbsp;&nbsp;&nbsp;<a href="contact.html" >Contact</a></div>
+   
+   </br></br></br></br></br></br></br></br></br></br></br>
+   </div>
+   </td>
+   
+   <td>
+
+	<h2> Contact Fish Creek</h2> 
+	<form id=txt14  method="get" action="index.html" name="myForm" onsubmit="return validate()" >
+	
+	Required fieldset are marked with asterisk(*)
+	
+	
+	
+	 
+	 
+	<fieldset >
+	
+	<div>
+	<label>*Client Full Name:</label>
+	<input type="text" id="txt4" name="title">
+	
+	</div>
+	<br>
+	<div>
+	<label>*Address:</label>
+	<input type="text" id="txt5" name="Address">
+	
+	</div>
+	<br>
+	<div>
+	   <label>*E-Mail:</label>
+	   <input type="text" id="txt6" name="mail">
+	   
+		</div>
+		</div>
+	<br>
+	<div>
+	   <label>*Phone:</label>
+	   <input type="text" id="txt6" pattern="([0-9]){10}"name="phone">
+	   
+		</div>
+	</div>
+	<br>
+	<div>
+	   <label>*Password:</label>
+	   <input type="password" id="txt15" pattern="(?=.*[a-z])(?=.*[A-Z]).{8,12}" name="password">
+	   
+		</div>
+	
+		<br>
+		<div>
+	<label>*Type of Service</label>
+	 <select name="cars" id="txt8">
+    <option value="volvo">Medical Services</option>
+    <option value="saab">Non-medical Services</option>
+    </select>
+	</div>
+	
+		<br>
+		<div>
+		<label id="txt" >*Pet</label>
+		
+		<input type="text" id="txt7" name="Pet">
+		
+		</div>
+		</br>
+		<div>
+		
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Send Now">
+		</div>
+		<footer>
+</br></br>
+ <i><small>&nbsp;&nbsp;Copyright &copy 2016 Fish Creek Animal Hospital</small></i></br>
+<input type="button" id="txt13" value="manu@gupta.com" onclick="window.location.href='mailto:manu.gupta@mavs.uta.edu'">
+
+	
+</footer>
+		
+		</fieldset>
+		</form >
+		</td>
+		
+		
+		</tr>
+	
+		
+	
+	
+</table>	
+	
+
+
+</body>
+</html>
